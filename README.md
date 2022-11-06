@@ -6,6 +6,6 @@
 
 ###### A user guide can be viewed here: https://www.researchgate.net/publication/256436111_ClusterTrack_software_user_guide
 
-###### The top level functions are detectEB3.m • trackFeature.m • trackCluster.m • plotGroup.m • parseGroup.m
+###### The top-level Matlab functions are detectEB3.m • trackFeature.m • trackCluster.m • plotGroup.m • parseGroup.m
 
-###### The additional support functions can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
+###### All additional support functions can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
