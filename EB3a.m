@@ -8,8 +8,8 @@ function feats = EB3a(debug,coef,sigma,s,k)
 % s = 3 if image number are XXX
 %
 % OUTPUT     feats   :    A list of the features with their centroid x,y
-% coordinates, bloc eccentricity, angular orientation & length of major
-% axiz
+% coordinates, blob eccentricity, angular orientation & length of major
+% axis
 %
 % SYNOPSIS
 % feats = EB3a(1,1,4,s,numberOfDebugImage) to plot figure and look at results
