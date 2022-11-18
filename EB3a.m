@@ -15,7 +15,7 @@ function feats = EB3a(debug,coef,sigma,s,k)
 % feats = EB3a(1,1,4,s,numberOfDebugImage) to plot figure and look at results
 % feats = EB3a(0,1,4,s,numberOfLastImage) to run thru whole movie and save detection
 %    
-% Alexandre Matov, v1.0 October, 2002
+% Alexandre Matov, v1.0 October, 2003
 
 [fileName,dirName] = uigetfile('*.tif','Choose a .tif file');
 I = imread([dirName,filesep,fileName]);
