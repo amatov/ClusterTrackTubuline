@@ -3,19 +3,19 @@ function feats = EB3a(debug,coef,sigma,s,k)
 % INPUT debug -> if 0 - save all 'cands' files to disk (k should be #images), 
 % else if 1 - run for the k-th image and plot detection figure
 % 
-% coef = 1; sigma = 4;
+% coef = 1; sigma = 4; DoG (scale-space)
 % s = 2 if image numbers are XX
 % s = 3 if image number are XXX
 %
 % OUTPUT     feats   :    A list of the features with their centroid x,y
-% coordinates, blob eccentricity, angular orientation & length of major
-% axis
+% coordinates, bloc eccentricity, angular orientation & length of major
+% axiz
 %
 % SYNOPSIS
 % feats = EB3a(1,1,4,s,numberOfDebugImage) to plot figure and look at results
 % feats = EB3a(0,1,4,s,numberOfLastImage) to run thru whole movie and save detection
 %    
-% Alexandre Matov, v1.0 October, 2004
+% Alexandre Matov, v1.0 October, 2002
 
 [fileName,dirName] = uigetfile('*.tif','Choose a .tif file');
 I = imread([dirName,filesep,fileName]);
