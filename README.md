@@ -6,6 +6,6 @@
 
 ###### A user guide can be viewed here: https://www.researchgate.net/publication/256436111_ClusterTrack_software_user_guide
 
-###### The Matlab functions for detetion, clustering, and statistical outut are EB3a.m • trackCluster.m • parseGroup.m
+###### The Matlab functions for detection, clustering, and statistical output are EB3a.m • trackCluster.m • parseGroup.m
 
 ###### All additional support functions can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
