@@ -6,10 +6,10 @@
 
 ###### My user guide can be viewed here: https://www.researchgate.net/publication/256436111_ClusterTrack_software_user_guide
 
-###### I wrote Matlab functions for detection, clustering, and statistical output - EB3a.m • trackCluster.m • parseGroup.m
+###### I wrote Matlab functions for detection, clustering, and statistical output - EB3a.m (2002) and trackCluster.m (2007) 
 
 ###### All additional support functions can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
 
 ###### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker in 1996
 
-###### The tracking functions are based on implementation by Cor Veenman (see their C code in HungarianAlgorithm_cCode_LAP)
+###### The tracking functions are based on implementation by Cor Veenman in 2002 (see their C code in HungarianAlgorithm_cCode_LAP)
