@@ -10,6 +10,6 @@
 
 ###### All additional support functions can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
 
-###### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker 
+###### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker in 1996
 
 ###### The tracking functions are based on implementation by Cor Veenman (see their C code in HungarianAlgorithm_cCode_LAP)
