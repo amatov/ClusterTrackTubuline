@@ -9,3 +9,5 @@
 ###### The Matlab functions for detection, clustering, and statistical output are EB3a.m • trackCluster.m • parseGroup.m
 
 ###### All additional support functions can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
+
+###### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation of Roy Jonker 
