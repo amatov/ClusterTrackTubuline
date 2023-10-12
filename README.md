@@ -13,3 +13,5 @@
 ###### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker in 1996 
 
 ###### The tracking functions are based on implementation by Cor Veenman in 2002 (see their C++ code in HungarianAlgorithm_cCode_LAP)
+
+https://www.researchgate.net/publication/374059796_Computational_Analysis_of_Microtubule_Dynamics_for_Personalized_Medicine_2007_-_2017
