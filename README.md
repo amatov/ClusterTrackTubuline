@@ -1,8 +1,6 @@
 ### **ClusterTrack**
 
-##### Presentations and funding applications on this project are available here:
-
-##### https://researchgate.net/publication/374059796_Computational_Analysis_of_Microtubule_Dynamics_for_Personalized_Medicine_2007_-_2017
+##### Presentations and funding applications on this project are available here: https://researchgate.net/publication/374059796_Computational_Analysis_of_Microtubule_Dynamics_for_Personalized_Medicine_2007_-_2017
 
 ###### Methods for personalizing medical treatment are the focal point of contemporary biomedical research. All degenerative diseases are associated with impairment in intracellular trafficking and manifest in changes in the morphology of cellular components. Complete characterization of treatment efficacy and evaluation of why some individuals respond to specific regimens, whereas others do not, requires additional approaches to genetic sequencing at single time points. Quantitative cell biological profiling of subcellular interactions in disease is required to understand the mechanisms of pathogenesis and elucidate the mechanisms of drug action. Successful analyses of the mechanism of drug action require statistical analysis of large-scale readouts of molecular interactions at nanometer-scale resolution by automating the extraction of unbiased information from time-lapse microscopy image series. Methods for the continuous analysis of changes in phenotype, such as morphology and motion tracking of cellular proteins and organelles over time frames spanning the minute-hour scales, can provide new evidence and essential insight into patient treatment options.
 
