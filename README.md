@@ -14,5 +14,5 @@
 
 ###### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker in 1996 
 
-###### The tracking functions are based on implementation by Cor Veenman in 2002 (see their C++ code in HungarianAlgorithm_cCode_LAP)
+###### The tracking functions are based on implementation by Cor Veenman in 2002 (see their C++ code in HungarianAlgorithm_cCode_LAP and GOA_Veenman)
 
