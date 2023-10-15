@@ -6,6 +6,8 @@
 
 #### **ClusterTrack** software allowed for the first time comprehensive measurements of microtubule behavior, encompassing all cellular areas, including the cell body, where the density of the cytoskeleton is high. Additionally, the ClusterTrack algorithm allowed for the characterization of the different stages of microtubule depolymerization, a process that cannot be visualized using existing molecular markers. Using this software, I directly measured two parameters of microtubule dynamics and computationally inferred another ten parameters to evaluate a microtubule dynamics signature. This computational approach could evaluate and compare the effects of both established and new microtubule-targeting agents on microtubule dynamics. In the long run, dissecting the mechanisms of microtubule organization using this computing tool will allow better drugs to be designed by exploiting disease-specific aberrations and aid in the characterization of new therapies.
 
+#### I have described an application of ClusterTrack for the evaluation of oncolytic virus therapy here: https://researchgate.net/publication/374166817_Image_Analysis_of_Microtubules_Before_and_After_Treatment_with_Attenuated_Vaccinia_Virus_to_Evaluate_the_Infection_Efficacy_of_Oncolytic_Virus_Therapy_2011
+
 ###### My user guide can be viewed here: https://www.researchgate.net/publication/256436111_ClusterTrack_software_user_guide
 
 ###### I wrote Matlab functions for detection, clustering, and statistics - EB3a.m/scale-space detection (2002) and trackCluster.m (2007) 
