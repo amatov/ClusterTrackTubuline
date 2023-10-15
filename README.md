@@ -8,6 +8,8 @@
 
 ##### I have described an application of ClusterTrack for the evaluation of oncolytic virus therapy here: https://researchgate.net/publication/374166817_Image_Analysis_of_Microtubules_Before_and_After_Treatment_with_Attenuated_Vaccinia_Virus_to_Evaluate_the_Infection_Efficacy_of_Oncolytic_Virus_Therapy_2011
 
+##### I described a clinical application of ClusterTrack here: https://researchgate.net/publication/374059823_Quantitative_Video_Microscopy_Methods_in_Medicine_Perspective_2017
+
 ###### My user guide can be viewed here: https://www.researchgate.net/publication/256436111_ClusterTrack_software_user_guide
 
 ###### I wrote Matlab functions for detection, clustering, and statistics - EB3a.m/scale-space detection (2002) and trackCluster.m (2007) 
