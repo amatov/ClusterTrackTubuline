@@ -14,7 +14,7 @@
 
 ###### I wrote Matlab functions for detection, clustering, and statistics such as EB3a.m/scale-space detection (2002), trackCluster/groupingLAP.m (2007), and the parsing and supporting functions 
 
-###### All additional project functions can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
+###### All of the rest of the Matlab functions, from other lab projects, can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
 
 ###### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker in 1996 
 
