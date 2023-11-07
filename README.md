@@ -27,7 +27,7 @@
 #### My user guide can be viewed here: https://www.researchgate.net/publication/256436111_ClusterTrack_software_user_guide
 #### I wrote Matlab functions for detection, clustering, and statistics with functionality such as EB3a.m/scale-space detection (2002), trackCluster/groupingLAP.m (2007), the data parsing, the bootstrapping, and the rest of the statistical analysis and visualization support functions 
 
-#### All the other Matlab functions, from different lab projects, can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
+#### Many other Matlab functions, from different lab projects, can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
 
 ##### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker in 1996 
 
