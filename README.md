@@ -18,7 +18,7 @@
 
 ### ClusterTrack software allowed for the first time comprehensive measurements of microtubule behavior, encompassing all cellular areas, including the cell body, where the density of the cytoskeleton is high. 
 
-### Additionally, the ClusterTrack algorithm allowed for the characterization of the different stages of microtubule depolymerization, a process that cannot be visualized using existing molecular markers. 
+#### Additionally, the ClusterTrack algorithm allowed for the characterization of the different stages of microtubule depolymerization, a process that cannot be visualized using existing molecular markers. 
 
 #### Using this software, I directly measured two parameters of microtubule dynamics and computationally inferred another ten parameters to evaluate a microtubule dynamics signature. This computational approach could evaluate and compare the effects of both established and new microtubule-targeting agents on microtubule dynamics. 
 
