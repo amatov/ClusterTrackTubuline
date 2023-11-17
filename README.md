@@ -37,5 +37,5 @@
 
 #### I also wrote code and performed analysis for the publication:
 
-#### Yukaku Nishimura, Kat Applegate, Mike Davidson, Gaudy Danuser, Clare Waterman "Automated Screening of Microtubule Growth Dynamics Identifies MARK2 as a Regulator of Leading Edge Microtubules Downstream of Rac1 in Migrating Cells (2012)"
+#### Yukako Nishimura, Kat Applegate, Mike Davidson, Gaudy Danuser, Clare Waterman "Automated Screening of Microtubule Growth Dynamics Identifies MARK2 as a Regulator of Leading Edge Microtubules Downstream of Rac1 in Migrating Cells (2012)"
 
