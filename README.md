@@ -32,5 +32,10 @@
 ##### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker in 1996 
 
 ##### The tracking functions are based on implementation by Cor Veenman in 2001
+
 ##### See their C++ code in folders HungarianAlgorithm_cCode_LAP and GOA_Veenman
+
+#### I also wrote code and performed analysis for the publication:
+
+#### Yukaku Nishimura, Kat Applegate, Mike Davidson, Gaudy Danuser, Clare Waterman "Automated Screening of Microtubule Growth Dynamics Identifies MARK2 as a Regulator of Leading Edge Microtubules Downstream of Rac1 in Migrating Cells (2012)"
 
