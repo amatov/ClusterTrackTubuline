@@ -24,8 +24,7 @@
 
 ### In the long run, dissecting the mechanisms of microtubule organization using this computing tool will allow better drugs to be designed by exploiting disease-specific aberrations and aid in the characterization of new therapies.
 
-#### My user guide can be viewed here: https://www.researchgate.net/publication/256436111_ClusterTrack_software_user_guide
-#### I wrote Matlab functions for detection, clustering, and statistics with functionality such as EB3a.m/scale-space detection (2002), trackCluster/groupingLAP.m (2007), the data parsing, the bootstrapping, and the rest of the statistical analysis and visualization support functions 
+#### My user guide can be viewed here: http://dx.doi.org/10.13140/RG.2.2.16489.26721
 
 #### Many other Matlab functions, from different lab projects, can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
 
