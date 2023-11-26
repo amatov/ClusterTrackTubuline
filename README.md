@@ -2,7 +2,7 @@
 
 ### C++ and Matlab code I wrote for the software modules of the ClusterTrack algorithm
 
-#### Presentations and biomedical applications of this approach, which I conceived in 2005, are available here: https://researchgate.net/publication/374059796_Personalized_Therapy_for_Sensitization_of_Resistant_Tumors_and_Identification_of_Putative_Targets_within_the_Microtubule_Transcriptome_2007_-_2017
+#### Presentations and biomedical applications of this approach, which I conceived in 2005, are available here: http://dx.doi.org/10.13140/RG.2.2.16364.95363/1
 
 #### I have described an application of this approach for the evaluation of oncolytic virus therapy here: https://researchgate.net/publication/374166817_Image_Analysis_of_Microtubules_Before_and_After_Treatment_with_Attenuated_Vaccinia_Virus_to_Evaluate_the_Infection_Efficacy_of_Oncolytic_Virus_Therapy_2011
 
