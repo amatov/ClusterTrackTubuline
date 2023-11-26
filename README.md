@@ -4,7 +4,7 @@
 
 #### Presentations and biomedical applications of this approach, which I conceived in 2005, are available here: http://dx.doi.org/10.13140/RG.2.2.16364.95363/1
 
-#### I have described an application of this approach for the evaluation of oncolytic virus therapy here: https://researchgate.net/publication/374166817_Image_Analysis_of_Microtubules_Before_and_After_Treatment_with_Attenuated_Vaccinia_Virus_to_Evaluate_the_Infection_Efficacy_of_Oncolytic_Virus_Therapy_2011
+#### I have described an application of this approach for the evaluation of oncolytic virus therapy here: http://dx.doi.org/10.13140/RG.2.2.11643.08481/1
 
 #### I have described an application of this approach for therapy evaluation in breast cancer here: https://researchgate.net/publication/374166846_Optimal_Treatment_and_Dose_Selection_in_Receptor_Triple-Negative_Breast_Cancer_2012_-_2017
 
