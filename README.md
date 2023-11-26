@@ -6,7 +6,7 @@
 
 #### I have described an application of this approach for the evaluation of oncolytic virus therapy here: http://dx.doi.org/10.13140/RG.2.2.11643.08481/1
 
-#### I have described an application of this approach for therapy evaluation in breast cancer here: https://researchgate.net/publication/374166846_Optimal_Treatment_and_Dose_Selection_in_Receptor_Triple-Negative_Breast_Cancer_2012_-_2017
+#### I have described an application of this approach for therapy evaluation in breast cancer here: http://dx.doi.org/10.13140/RG.2.2.36808.90886
 
 #### I described a clinical application of this approach for real time analysis here: https://researchgate.net/publication/374059823_Quantitative_Video_Microscopy_Methods_in_Medicine_Perspective_2017
 
