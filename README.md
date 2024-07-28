@@ -26,7 +26,7 @@
 
 #### My user guide can be viewed here: http://dx.doi.org/10.13140/RG.2.2.16489.26721
 
-#### Many other Matlab functions, from different lab projects, can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
+#### Many other Matlab functions, from unrelated lab projects, can be downloaded here: https://www.nature.com/articles/nmeth.1493#Sec13
 
 ##### The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker in 1996 
 
