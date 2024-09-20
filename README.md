@@ -8,7 +8,7 @@
 
 #### I have described an application of this approach for therapy evaluation in breast cancer here: http://dx.doi.org/10.13140/RG.2.2.36808.90886 (8 PDF files) 
 
-#### I described a clinical application of this approach for real-time analysis here: http://dx.doi.org/10.13140/RG.2.2.25725.13281/1 (5 PDF files) 
+#### I have described a clinical application of this approach for real-time analysis here: http://dx.doi.org/10.13140/RG.2.2.25725.13281/1 (5 PDF files) 
 
 #### Methods for personalizing medical treatment are the focal point of contemporary biomedical research. All degenerative diseases are associated with impairment in intracellular trafficking and manifest in changes in the morphology of cellular components. Complete characterization of treatment efficacy and evaluation of why some individuals respond to specific regimens, whereas others do not, requires additional approaches to genetic sequencing at single time points. 
 
