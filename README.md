@@ -10,6 +10,8 @@
 
 #### I have described a clinical application of this approach for real-time analysis here: http://dx.doi.org/10.13140/RG.2.2.25725.13281/1 (5 PDF files) 
 
+#### See also https://www.researchgate.net/publication/382592264_Mitosis_Cytoskeleton_Regulation_and_Drug_Resistance_in_Receptor_Triple_Negative_Breast_Cancer
+
 #### Methods for personalizing medical treatment are the focal point of contemporary biomedical research. All degenerative diseases are associated with impairment in intracellular trafficking and manifest in changes in the morphology of cellular components. Complete characterization of treatment efficacy and evaluation of why some individuals respond to specific regimens, whereas others do not, requires additional approaches to genetic sequencing at single time points. 
 
 #### Quantitative cell biological profiling of subcellular interactions in disease is required to understand the mechanisms of pathogenesis and elucidate the mechanisms of drug action. Successful analyses of the mechanism of drug action require statistical analysis of large-scale readouts of molecular interactions at nanometer-scale resolution by automating the extraction of unbiased information from time-lapse microscopy image series. 
