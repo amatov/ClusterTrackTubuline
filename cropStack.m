@@ -14,6 +14,8 @@ function area=cropStackNoCompression(area,path)
 %            user will be prompted to select the path through a save
 %            dialog. If a directory is specified which does not exist, 
 %            it will be created (if possible).
+%
+% AM Sept 26 2002
 
 % Check input parameters
 if nargin==0
