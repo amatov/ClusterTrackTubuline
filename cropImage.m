@@ -15,7 +15,7 @@ function cropImage
 %            dialog. If a directory is specified which does not exist, 
 %            it will be created (if possible).
 %
-% AM Sept26 2003
+% AM Sept 26 2002
 
 % get current directory
 currDir = cd;
