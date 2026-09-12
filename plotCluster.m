@@ -6,10 +6,12 @@ for j = 2:13
     strg=sprintf('%%.%dd',s);
     indxStr=sprintf(strg,j);
 
+    % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
     v = textread(['C:\Alex\R\R-2.3.1\avgV_786OVHL30_NaCl',indxStr,'.txt'],'%n');
     dx = sort(v);
     le = length(v);
 
+    % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
     c = textread(['C:\Alex\R\R-2.3.1\avgV_786OVHL30_NaCl',indxStr,'_distribution_3G.txt'],'%n');
     n = c(1);
     p =zeros(le,1);
@@ -37,10 +39,12 @@ for j = 1:12
     strg=sprintf('%%.%dd',s);
     indxStr=sprintf(strg,j);
 
+    % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
     v = textread(['C:\Alex\R\R-2.3.1\avgV_786Opar_NaCl',indxStr,'.txt'],'%n');
     dx = sort(v);
     le = length(v);
 
+    % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
     c = textread(['C:\Alex\R\R-2.3.1\avgV_786Opar_NaCl',indxStr,'_distribution_3G.txt'],'%n');
     n = c(1);
     p =zeros(le,1);

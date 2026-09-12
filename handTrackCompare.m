@@ -2,6 +2,7 @@
 function handTrackCompare
 
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = 'X:\AlexData\Torsten\trackingValidation\';
 I = imread([dirName,'EB1\images\EB1\020_crop_c1t01.tif']);
 

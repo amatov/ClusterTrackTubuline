@@ -14,27 +14,33 @@ function batchGrouping_TSA_noco_and_TSA
 % parseGroups('X:\AlexData\Torsten\trichostatinA\noco_and_TSA\cell2\images\');
 % parseGroups('X:\AlexData\Torsten\trichostatinA\noco_and_TSA\cell3\images\');
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\trichostatinA\noco_and_TSA\cell1\groups\parameters.mat');
 p(1) = percentTracksGrouped;
 g(1) = gapsInSegment;
 pr(1) = probShrink;
 pt(1) = percentTimeShrink;
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\trichostatinA\noco_and_TSA\cell1\groups\parser.mat');
 hists(1)  = parser ;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\trichostatinA\noco_and_TSA\cell2\groups\parameters.mat');
 p(2) = percentTracksGrouped;
 g(2) = gapsInSegment;
 pr(2) = probShrink;
 pt(2) = percentTimeShrink;
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\trichostatinA\noco_and_TSA\cell2\groups\parser.mat');
 hists(2)  = parser ;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\trichostatinA\noco_and_TSA\cell3\groups\parameters.mat');
 p(3) = percentTracksGrouped;
 g(3) = gapsInSegment;
 pr(3) = probShrink;
 pt(3) = percentTimeShrink;
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\trichostatinA\noco_and_TSA\cell3\groups\parser.mat');
 hists(3)  = parser ;
 

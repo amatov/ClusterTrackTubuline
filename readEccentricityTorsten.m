@@ -6,11 +6,13 @@ function readEccentricityTorsten
 
 %CONTROL
 % dirName = 'X:\AlexData\Torsten\trichostatinA\ctrl\cell1\';
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = '/mnt/alex10/AlexData/Torsten/trichostatinA/ctrl/cell1/';
 
 % img2 = imread([dirName,'cell_mask',filesep,'mask_1um_tsa#4t01.tif']);% CELL BODY 1-0 MASK
 img2 = imread([dirName,'cell_mask',filesep,'mask_ctrl_60x#6_t01.tif']);% CELL BODY 1-0 MASK
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['/mnt/alex10/AlexData/Torsten/trichostatinA/ctrl/cell1/images/ctrl_60x#6_t01.tif']);
 % I = imread(['/mnt/alex10/AlexData/Torsten/trichostatinA/1uM_TSA/cell3/images/1um_tsa#4t01.tif']);
 

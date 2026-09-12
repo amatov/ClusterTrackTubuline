@@ -13,6 +13,7 @@ if nargin == 1
     [fileName,dirName] = uigetfile('*.mat','Choose a .mat file');
     load([dirName,filesep,fileName]);
 else
+        % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
         load(['/mnt/alex10/AlexData11/786O/786O_parental/786Opar_NaCl02_R3D/point_files/config001_5p00_track_bidir.mat']);
 %     load(['C:\amatov\data\786O\config001_5p00_track_bidir.mat']);
 end

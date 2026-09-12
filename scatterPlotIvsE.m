@@ -1,6 +1,7 @@
 function scatterPlotIvsE
 
 % dirName = 'X:\AlexData\Torsten\xy_resolution\cell1\100x\';
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = '/mnt/alex10/AlexData/Torsten/xy_resolution/cell1/100x/';
 
 % I = imread(['X:\AlexData\Torsten\xy_resolution\cell1\100x\images\021508_100x#06_t01.tif']); %-6 torsten. -7 otherwise
@@ -66,6 +67,7 @@ for i = 1:leIndx % number of images
         strg=sprintf('%%.%dd',2);
         indxStr=sprintf(strg,(k+traj(i).startID-1));
 
+        % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
         I = imread(['/mnt/alex10/AlexData/Torsten/xy_resolution/cell1/100x/images/021508_100x#06_t',indxStr,'.tif']); %-6 torsten. -7 otherwise
         I=double(I);
         aux = Gauss2D(I,1);%1

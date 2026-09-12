@@ -3,6 +3,7 @@ function EB3surf
 Y = [50,374, 374, 50, 50];%[130,374, 374, 130, 130];
 X = [210, 210, 830, 830, 210];%[510, 510, 830, 830, 510];
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData\Torsten\xy_resolution\cell1\100x\coordEB1may2009.mat'])
 eb = size(coordEB1,1);
 
@@ -15,6 +16,7 @@ for coef = 1:0.2:4 % 4*5-3->17 (16!)
 
         strg2=sprintf('%%.%dd',2);
         strg3=sprintf('%%.%dd',3);
+        % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
         load(['X:\AlexData\Torsten\xy_resolution\cell1\100x\param\feats',sprintf(strg2,round(coef*10)),sprintf(strg3,sigm*100),'.mat'])
 
         D=createSparseDistanceMatrix(coordEB1,feats.pos,10);

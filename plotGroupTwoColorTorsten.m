@@ -1,8 +1,10 @@
 function h = plotGroupTwoColorTorsten 
 
 minLT = 4;
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['X:\AlexData\Torsten\trackingValidation\EB1\images\020_crop_c1t01.tif']);
 fileName = '020_crop_c1t01.tif';
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = 'X:\AlexData\Torsten\trackingValidation\EB1\images\';
 load([dirName(1:end-8),'\point_files\config001_4p00_track_bidir.mat']); %5
 load([dirName(1:end-8),'\groups\group.mat']);

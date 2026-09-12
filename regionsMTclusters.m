@@ -30,11 +30,17 @@ pr_sh_bod_gsk = [];
 ti_sh_bod_gsk = [];
 dr_sh_bod_gsk = [];
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(1).dir = ['X:\AlexData\Torsten\GSK_paper\37degs\022608_#4\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(2).dir = ['X:\AlexData\Torsten\GSK_paper\37degs\022608_#7\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(3).dir = ['X:\AlexData\Torsten\GSK_paper\37degs\022608_#10\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(4).dir = ['X:\AlexData\Torsten\GSK_paper\37degs\030708_#11\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(5).dir = ['X:\AlexData\Torsten\GSK_paper\37degs\030708_#13\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(6).dir = ['X:\AlexData\Torsten\GSK_paper\37degs\030708_#14\bod.tif'];
 
 for j = 1:6
@@ -164,11 +170,17 @@ for j = 1:6
     clear shrink_times
 end
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(1).dir = ['X:\AlexData\Torsten\GSK_paper\gsk_100x\022208_#1\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(2).dir = ['X:\AlexData\Torsten\GSK_paper\gsk_100x\022208_#5\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(3).dir = ['X:\AlexData\Torsten\GSK_paper\gsk_100x\022608_#1\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(4).dir = ['X:\AlexData\Torsten\GSK_paper\gsk_100x\022608_#2\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(5).dir = ['X:\AlexData\Torsten\GSK_paper\gsk_100x\022608_#8\bod.tif'];
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 list(6).dir = ['X:\AlexData\Torsten\GSK_paper\gsk_100x\022608_#9\bod.tif'];
 
 for j = 1:6
@@ -299,6 +311,7 @@ for j = 1:6
 end
 
 % boxplots
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 tor = xlsread('X:\AlexData\Torsten\trichostatinA\jcb_gsk3_growthrates.xls'); %\tracking_data1.xls');
 gr100b = tor(:,2)';%tr_sp_lam_ctr;
 gr60b = tor(:,1)';%tr_sp_bod_ctr;

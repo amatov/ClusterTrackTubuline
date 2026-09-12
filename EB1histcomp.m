@@ -1,42 +1,52 @@
 function [compMatrices,compMatricesC1,compMatricesC2,compMatricesC3] = EB1histcomp
 
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl01\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(1).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl02\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(2).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl03\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(3).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl04\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(4).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl05\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(5).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl08\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(6).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl09\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(7).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl11\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(8).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\786Opar_NaCl12\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(9).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786O_parental\060907_786Opar_12\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC2(10).avgV = avgV;
@@ -52,22 +62,27 @@ compMatricesC2(3) = discriminationMatrix(dataC2,struct('avgV',[10,10])); % 10 - 
 compMatricesC2.avgV
 %--------------------------------------------------------------------------
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786OVHL\786OVHL30_NaCl09\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC3(1).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786OVHL\786OVHL30_NaCl10\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC3(2).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786OVHL\786OVHL30_NaCl11\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC3(3).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786OVHL\786OVHL30_NaCl12\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC3(4).avgV = avgV;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData11\786O\786OVHL\786OVHL30_NaCl13\point_files\config001_5p00_track_bidir_uni_dir_analysisRecord.mat');
 
 dataC3(5).avgV = avgV;

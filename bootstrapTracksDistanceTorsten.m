@@ -1,9 +1,12 @@
 function bootstrapTracksDistanceTorsten
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\point_files\config001_4p00_track_bidir.mat']);
 % load(['X:\AlexData\Torsten\020608_nocodazole_titration_EB1\no_Noc#07\point_files\config001_4p00_track_bidir.mat']);
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\images\ctrl_60x#6_t01.tif']);
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 img2 = imread(['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\cell_mask\mask_ctrl_60x#6_t01.tif']);% CELL BODY 1-0 MASK
 % I = imread(['X:\AlexData\Torsten\020608_nocodazole_titration_EB1\no_Noc#07\images\0nm_10_t01.tif']);
 % img2 =imread(['X:\AlexData\Torsten\020608_nocodazole_titration_EB1\no_Noc#07\cell_mask\mask_0nm_10_t01.tif']);% CELL BODY 1-0 MASK
@@ -40,7 +43,9 @@ groupEdge = parseGroupsTorstenEdge(groupEdge,trajEdge,'Edge');
 groupBody = parseGroupsTorstenEdge(groupBody,trajBody,'Body');
 
 % bootstrap of two regions' groups- RE-LOAD-FROM-HERE
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\groups\parserEdge']);
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\groups\parametersEdge']);
 % load(['X:\AlexData\Torsten\020608_nocodazole_titration_EB1\no_Noc#07\groups\parserEdge']);
 % load(['X:\AlexData\Torsten\020608_nocodazole_titration_EB1\no_Noc#07\groups\parametersEdge']);
@@ -74,7 +79,9 @@ MEAN_SHRINK_SPEED = mean(shrink_speedsEdge)
 STD_SHRINK_SPEED = std(shrink_speedsEdge)
 DELTA_T_SHRINK = mean(shrink_timesEdge)/(1/samplingRate)
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\groups\parserBody']);
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\groups\parametersBody']);
 % load(['X:\AlexData\Torsten\020608_nocodazole_titration_EB1\no_Noc#07\groups\parserBody']);
 % load(['X:\AlexData\Torsten\020608_nocodazole_titration_EB1\no_Noc#07\groups\parametersBody']);

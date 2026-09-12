@@ -1,9 +1,11 @@
 function SNRcalc
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 M = imread('X:\AlexData\Torsten\UPLOAD\NMrevision\mask_021508_100x#06_t75.tif');
 
 % I =imread(['X:\AlexData11\RCC4\RCC4-CMV93(VHL30)\060829_RCC4-CMV93-LMP_01\images\060829_RCC4-CMV93-LMP_01_T000.tif']);
 % I = imread(['X:\AlexData11\EB3-Clip\080417_RPE1_transient_tiff\080417_RPE1_NZ-ns_CLIP170_03\images\080417_RPE1_NZ-ns_CLIP170_03_T000.tif']);
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['X:\AlexData\Torsten\UPLOAD\NMrevision\021508_100x#06_t75.tif']);
 % I = imread(['X:\AlexData\Torsten\xy_resolution\cell1\100x\images\021508_100x#06_t75.tif']);
 i = 1;

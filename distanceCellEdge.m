@@ -2,6 +2,7 @@ function distanceCellEdge
 
 % USE imEdgeTracker
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 img2 = imread('H:\alex\AlexData\cell_mask\mask_EB1-GFP-5001.tif');
 % img2 = imread('H:\alex\AlexData\Torsten\trichostatinA\1uM_TSA\cell1\cell_mask\mask_1um_tsa_#6_t01.tif');
 % img2 = imread('D:\Dmitri\set1\cell_mask\mask_Nontg AstrocytesLysotracker-Red Hoesct-Image Export-01.tif');

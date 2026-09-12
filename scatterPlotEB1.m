@@ -3,6 +3,7 @@ function scatterPlotEB1
 % NOCO -> Eccentricity vs Speed
 % -----------------------------------------------------------------------
 % 100nM_Noc#02, 10nM_Noc#05, 1nM_Noc#00, no_Noc#05
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = 'X:\AlexData\Torsten\020608_nocodazole_titration_EB1\10nM_Noc#05\';
 
 % - INTENSITY VS SPEED

@@ -1,8 +1,12 @@
 function [track_speeds,mean_cells]=bootstrapingCLIP170shVHL;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 name(1).dir = 'X:\AlexData11\EB3-Clip\080417_RPE1_transient_tiff\080417_RPE1_NZ-vhl_CLIP170_01';
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 name(2).dir = 'X:\AlexData11\EB3-Clip\080417_RPE1_transient_tiff\080417_RPE1_NZ-vhl_CLIP170_02';
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 name(3).dir = 'X:\AlexData11\EB3-Clip\080417_RPE1_transient_tiff\080417_RPE1_NZ-vhl_CLIP170_03';
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 name(4).dir = 'X:\AlexData11\EB3-Clip\080417_RPE1_transient_tiff\080417_RPE1_NZ-vhl_CLIP170_05';
 
 for j = 1:4

@@ -178,7 +178,9 @@ percentTracksGrouped = length(group_list)/nbTracksLT4;
 nbGroups = length(group);
 nbFeaturesTrackedLT4 = sum([traj.len]);
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 save(['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\groups\parser',name],'parser') 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 save((['X:\AlexData\Torsten\trichostatinA\ctrl\cell1\groups\parameters',name,'.mat']),'pixelSize',...
     'samplingRate','percentTracksGrouped','nbTracksLT4','nbGroups','nbFeaturesTrackedLT4',...
     'gapsInSegment', 'probShrink','percentTimeShrink');

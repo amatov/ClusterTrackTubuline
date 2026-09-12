@@ -1,12 +1,14 @@
 function getEdgeCutoff
 
 % dirName = '/mnt/alex10/AlexData/Torsten/trichostatinA/ctrl/cell3/';
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = '/mnt/alex10/AlexData/Torsten/020608_nocodazole_titration_EB1/no_Noc#10/';
 
 % img2 = imread([dirName,'cell_mask',filesep,'mask_ctrl_60x#8t01.tif']);% CELL BODY 1-0 MASK
 img2 = imread([dirName,'cell_mask',filesep,'mask_0nm_10_t01.tif']);% CELL BODY 1-0 MASK
 
 % I = imread(['/mnt/alex10/AlexData/Torsten/trichostatinA/ctrl/cell3/images/ctrl_60x#8t01.tif']);
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['/mnt/alex10/AlexData/Torsten/020608_nocodazole_titration_EB1/no_Noc#10/images/0nm_10_t01.tif']);
 
 distance_image = bwdist(~img2);

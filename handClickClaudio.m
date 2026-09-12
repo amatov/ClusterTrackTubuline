@@ -1,12 +1,16 @@
 function handClickClaudio
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 ns = xlsread('X:\VHL-paper\Supplement\ns.xls'); % speed
 ns = abs(ns);
 % nt = xlsread('X:\VHL-paper\Supplement\nst.xls'); % time
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 tn = xlsread('X:\VHL-paper\Supplement\nss.xls'); % switches
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 sh = xlsread('X:\VHL-paper\Supplement\sh.xls'); % speed
 sh = abs(sh);
 % st = xlsread('X:\VHL-paper\Supplement\sht.xls'); % time 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 th = xlsread('X:\VHL-paper\Supplement\shs.xls'); % switches
 
 flagBeginGrowth = find(tn==1);

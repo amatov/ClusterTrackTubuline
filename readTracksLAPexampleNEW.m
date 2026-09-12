@@ -3,6 +3,7 @@ function readTracksLAPexampleNEW
 TimeSpan = 20;
 R = 1000000;
 LifeTime = 4;
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData11\786O\786O_parental\786Opar_NaCl02_R3D\point_files\config001_5p00_track_bidir.mat']);
 
 indx = find( [tracks.len] >= LifeTime);

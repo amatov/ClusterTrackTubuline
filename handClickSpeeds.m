@@ -1,5 +1,6 @@
 function handClickSpeeds
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 tor = xlsread('X:\AlexData\Torsten\trackingValidation\tracking_data2.xls'); %\tracking_data1.xls');
 pixelSize = 0.107;% microns
 samplingRate = 0.62; % seconds

@@ -1,7 +1,9 @@
 % load sprintf('IST_plots-%d',seq);
 % load 06-IS_2
 track=tracks;
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 imageDir = 'D:\Cell Tracking\Data0919\set3_images\';
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 outputfolder='D:\Cell Tracking\Data0919\Results'
 List = dir([imageDir '\*.tif']);
 cols1 = colormap(jet);

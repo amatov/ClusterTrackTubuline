@@ -3,11 +3,14 @@ function validationGrouping_EB1andMTs_20
 
 fileName = ['config001_4p00_track_bidir.mat'];
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = ['X:\AlexData\Torsten\trackingValidation\EB1\point_files'];
 groupingLAP(fileName,dirName);
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 parseGroups('X:\AlexData\Torsten\trackingValidation\EB1\images\');
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\trackingValidation\EB1\groups\parser.mat');
 hists= parser;
 siz=size(hists.growth_speeds_tracks,2);

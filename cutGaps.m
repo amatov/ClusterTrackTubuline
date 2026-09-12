@@ -1,6 +1,7 @@
 function cutGaps
 
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = 'X:\AlexData\Torsten\111607_EB1andMTs\111607_#20\';
 % I = imread([dirName,'EB1\images\EB_01.tif']);
 

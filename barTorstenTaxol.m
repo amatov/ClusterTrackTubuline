@@ -1,11 +1,14 @@
 function barTorstenTaxol
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\no_Tax#03\groups1\parser.mat');
 p(1) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\no_Tax#06\groups1\parser.mat');
 p(2) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\no_Tax#07\groups1\parser.mat');
 p(3) = parser;
 clear parser
@@ -14,12 +17,15 @@ ga100 = cat(2,p.growth_speeds_gaps);
 s100 = cat(2,p.shirnk_speeds_gaps);  
 clear p
 %--------------------------------------------------------------------------
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\1nM_Tax#01\groups1\parser.mat');
 p(1) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\1nM_Tax#03\groups1\parser.mat');
 p(2) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\1nM_Tax#04\groups1\parser.mat');
 p(3) = parser;
 clear parser
@@ -28,12 +34,15 @@ ga60 = cat(2,p.growth_speeds_gaps);
 s60 = cat(2,p.shirnk_speeds_gaps);  
 clear p
 %--------------------------------------------------------------------------
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\3p3nM_Tax#01\groups1\parser.mat');
 p(1) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\3p3nM_Tax#02\groups1\parser.mat');
 p(2) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\3p3nM_Tax#04\groups1\parser.mat');
 p(3) = parser;
 clear parser
@@ -42,12 +51,15 @@ ga50 = cat(2,p.growth_speeds_gaps);
 s50 = cat(2,p.shirnk_speeds_gaps);  
 clear p
 %---------------------------------------------------------------------
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\10nM_Tax#02\groups1\parser.mat');
 p(1) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\10nM_Tax#03\groups1\parser.mat');
 p(2) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\10nM_Tax#04\groups1\parser.mat');
 p(3) = parser;
 clear parser
@@ -56,12 +68,15 @@ ga30 = cat(2,p.growth_speeds_gaps);
 s30 = cat(2,p.shirnk_speeds_gaps);  
 clear p
 %--------------------------------------------------------------------------
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\33nM_Tax#02\groups1\parser.mat');
 p(1) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\33nM_Tax#05a\groups1\parser.mat');
 p(2) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\33nM_Tax#05b\groups1\parser.mat');
 p(3) = parser;
 clear parser
@@ -70,12 +85,15 @@ ga20 = cat(2,p.growth_speeds_gaps);
 s20 = cat(2,p.shirnk_speeds_gaps);  
 clear p
 %-------------------------------------------------------------------
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\100nM_Tax#01\groups1\parser.mat');
 p(1) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\100nM_Tax#03\groups1\parser.mat');
 p(2) = parser;
 clear parser
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load('X:\AlexData\Torsten\0609_taxol_titration\100nM_Tax#04\groups1\parser.mat');
 p(3) = parser;
 clear parser

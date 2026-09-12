@@ -1,6 +1,7 @@
 function reformatGrouping
 
 % I = imread(['X:\AlexData11\786Opar\786Opar_NaCl01_R3D\images\786Opar_NaCl01_T000.tif']);
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData11\786Opar\786Opar_NaCl02_R3D\point_files\config001_5p00_track_bidir.mat']);
 % load(['Z:\AlexResults\EB1_Katsu_1s_1_600\point_files\EB1_poster_pooledData.mat']);
 
@@ -74,6 +75,7 @@ for i = 1:leIndBB % Fill In Frame by Frame starting w the Beginnings
     
     fprintf('Total number of EB1 features is %d in frame %d\n', length(feats.pos), i); % CHECK
     
+    % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
     save(['H:\GROUPING_TEST\cands\feats',indxStr],'feats')
 
     indB = [];
@@ -118,6 +120,7 @@ for i = (leIndBB+1):maxFrE % Frame by Frame continuining for the rest of the End
     
     fprintf('Total number of EB1 features is %d in frame %d\n', length(feats.pos), i); % CHECK
     
+    % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
     save(['H:\GROUPING_TEST\cands\feats',indxStr],'feats')
     
     indEE = [];

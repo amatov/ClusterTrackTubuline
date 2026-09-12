@@ -2,13 +2,16 @@ function compareTracks
 
 minLT = 4;
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['X:\AlexData\Torsten\trackingValidation\EB1\images\EB1\020_crop_c1t01.tif']);
 % ground truth
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 tor = xlsread('X:\AlexData\Torsten\trackingValidation\tracking_data2.xls');
 % cf = [0;find(isnan(tor(:,1)));1622]; % find the break between tracks
 % col 2 = frame, col 4 = x, col 5 = y
 % plot(tor(cf(i)+1:cf(i+1)-1,3),tor(cf(i)+1:cf(i+1)-1,4),colors(i))
 %-------------------------------
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 dirName = 'X:\AlexData\Torsten\trackingValidation\';
 I = imread([dirName,'EB1\images\EB1\020_crop_c1t01.tif']);
 
@@ -184,6 +187,7 @@ for i = 1:leGrowth
     growth(i).list = unique([growth(i).list]);
 end
 %-----------------------------------------------------------
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['X:\AlexData\Torsten\trackingValidation\EB1\images\EB1\020_crop_c1t01.tif']);
 h = figure,imshow(I,[])
 hold on
@@ -254,6 +258,7 @@ for i = 1:grNb
 end
 hold off
 %--- END SHRINK---------
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['X:\AlexData\Torsten\trackingValidation\EB1\images\EB1\020_crop_c1t01.tif']);
 h = figure,imshow(I,[])
 hold on

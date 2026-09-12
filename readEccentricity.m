@@ -1,8 +1,10 @@
 function readEccentricity
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 img2 = imread('X:\AlexData\cell_mask\mask_EB1-GFP-5001.tif');
 distance_image = bwdist(~img2);
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexResults\EB1_Katsu_1s_1_600\point_files\EB1_poster_pooledData.mat']);
 t = tracks(find([tracks.len]>5)); 
 len = length(t);
@@ -18,12 +20,15 @@ for i = 1:len %do it for each track
         %-----------------------ECCENTRICITY------------------------
         if i < 529
             indxStr=sprintf(strg,t(i).startID+j-1);% +200
+            % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
             load(['X:\AlexResults\EB1_Katsu_1s_1_600\cands\feats',indxStr,'.mat']); % load the feats.mat file corresponding to the point of the track
         elseif i > 528 &  i < 976
             indxStr=sprintf(strg,t(i).startID+j-1+200);% +200
+            % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
             load(['X:\AlexResults\EB1_Katsu_1s_1_600\cands\feats',indxStr,'.mat']); % load the feats.mat file corresponding to the point of the track
         elseif i > 975
             indxStr=sprintf(strg,t(i).startID+j-1+400);% +200
+            % EDIT: hardcoded path below is specific to the original author's local machine -- update before running
             load(['X:\AlexResults\EB1_Katsu_1s_1_600\cands\feats',indxStr,'.mat']); % load the feats.mat file corresponding to the point of the track
         else
             disp('somsing rong')

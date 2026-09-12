@@ -2,6 +2,7 @@ function EB3param
 
 % COMPARE HAND-CLICKING TO DETECTION USING LAP
 % I = imread(['X:\AlexData\Torsten\xy_resolution\cell1\100x\images\021508_100x#06_t75.tif']);
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 I = imread(['X:\AlexData11\EB3-Clip\080417_RPE1_transient_tiff\080417_RPE1_NZ-ns_CLIP170_03\images\080417_RPE1_NZ-ns_CLIP170_03_T000.tif']);
 % I = imread(['X:\AlexData11\RCC4\RCC4-CMV93(VHL30)\060829_RCC4-CMV93-LMP_01\images\060829_RCC4-CMV93-LMP_01_T000.tif']);
 
@@ -22,6 +23,7 @@ X = [550, 550, 700, 700, 550]; % CLIP1
 % im = imread(['X:\AlexData\Torsten\UPLOAD\torsten_noise\original_sd500.tif']);
 feats = EB3a(1,1.5 ,3,3,124);
 
+% EDIT: hardcoded path below is specific to the original author's local machine -- update before running
 load(['X:\AlexData11\EB3-Clip\080417_RPE1_transient_tiff\080417_RPE1_NZ-ns_CLIP170_03\images\coordCLIPfeb10-000.mat']);
 % load(['X:\AlexData11\RCC4\RCC4-CMV93(VHL30)\060829_RCC4-CMV93-LMP_01\images\coordWFfeb10-000.mat']) % WF
 % load(['X:\AlexData\Torsten\xy_resolution\cell1\100x\images\coordCLIPfeb10-000.mat']);
