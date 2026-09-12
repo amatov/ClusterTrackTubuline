@@ -1,12 +1,18 @@
 # Dependencies
 
-## `EB1projectCPP.zip`
+## `EB1projectCPP.zip` / `EB1projectCPP/`
 
-Contains C source code that must be compiled with MATLAB's `mex`
-compiler into a MEX-file before use by the tracker (the same pattern as
-`createSparseDistanceMatrix.c`, which is included as loose source at the
-repository root for the same purpose). Unzip and run `mex` on the
-contained source to produce the compiled file your MATLAB scripts expect.
+The zip contains a Visual Studio C++ build folder producing several
+standalone tracking executables (`FSMtrack.exe`, `ccLAPtrack_*.exe`,
+`LAPtrack_*.exe`) -- not a MATLAB MEX-file. Building from source requires
+a C++ compiler compatible with the included project files (`.sln`/
+`.vcproj`/`.dsp`); the source itself is also available loose (without the
+build artifacts) in `EB1projectCPP/src/` and `EB1projectCPP/include/` for
+easier browsing.
+
+`createSparseDistanceMatrix.c`, separately, is compiled via MATLAB's
+`mex` compiler into a MEX-file for direct use by the MATLAB tracker
+scripts.
 
 ## MATLAB scripts (`.m` files)
 

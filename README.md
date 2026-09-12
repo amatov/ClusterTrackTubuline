@@ -4,15 +4,20 @@
 
 The `.m` files at the repository root are the ClusterTrack MATLAB
 scripts; `createSparseDistanceMatrix.c` is compiled via MATLAB's `mex`
-compiler (see [DEPENDENCIES.md](DEPENDENCIES.md), which also covers
-`EB1projectCPP.zip`). Most scripts contain hardcoded absolute paths to
-the original author's local machine -- active instances are flagged with
-an `# EDIT:` comment directly above them.
+compiler. `EB1projectCPP.zip` / `EB1projectCPP/` is a separate,
+standalone Visual Studio C++ tracking project (see
+[DEPENDENCIES.md](DEPENDENCIES.md) for both). Most scripts contain
+hardcoded absolute paths to the original author's local machine -- active
+instances are flagged with an `# EDIT:` comment directly above them.
 
 ## Repository contents
 
 - Root `.m` / `.c` files -- the ClusterTrack algorithm and its analysis
   scripts.
+- `EB1projectCPP/` -- `src/` and `include/` source extracted from
+  `EB1projectCPP.zip` for visibility/browsability; the zip itself is kept
+  alongside it with the full original build folder (project files,
+  compiled executables).
 - `media/` -- supplementary image and data files.
 - **License:** see [LICENSE](LICENSE) -- research/educational use, with
   separate terms noted for bundled third-party components.
