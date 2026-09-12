@@ -1,1 +1,1 @@
-This is the source for Building FSMtrack.exe
+This is the source code used to build FSMtrack.exe.
