@@ -4,8 +4,8 @@ C++ and Matlab code I wrote for the software modules of the ClusterTrack algorit
 
 ## Quick start
 
-The `.m` files at the repository root are the ClusterTrack MATLAB
-scripts; `createSparseDistanceMatrix.c` is compiled via MATLAB's `mex`
+The `.m` files at the repository root are the ClusterTrack Matlab
+scripts; `createSparseDistanceMatrix.c` is compiled via Matlab's `mex`
 compiler, and so is [`EB1projectCPP`](EB1projectCPP/).
 
 ## Repository contents
