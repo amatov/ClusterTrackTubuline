@@ -44,11 +44,11 @@ My user guide is available at: http://dx.doi.org/10.13140/RG.2.2.16489.26721
 
 Many other Matlab functions, from unrelated projects at my dissertation lab, are available at: https://www.nature.com/articles/nmeth.1493#Sec13
 
-The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker (1996) of the algorithm from "A Shortest Augmenting Path Algorithm for Dense and Sparse Linear Assignment Problems" (1987).
+The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker (1996) of the algorithm from "A Shortest Augmenting Path Algorithm for Dense and Sparse Linear Assignment Problems" (1987)
 
-The tracking functions are based on an implementation by Cor Veenman of "Resolving Motion Correspondence for Densely Moving Points" (2001).
+The tracking functions are based on an implementation by Cor Veenman of "Resolving Motion Correspondence for Densely Moving Points" (2001)
 
-See their C++ code in folders [`HungarianAlgorithm_cCode_LAP`](HungarianAlgorithm_cCode_LAP/) and [`GOA_Veenman`](GOA_Veenman/).
+See their C++ code in folders [`HungarianAlgorithm_cCode_LAP`](HungarianAlgorithm_cCode_LAP/) and [`GOA_Veenman`](GOA_Veenman/)
 
 I also wrote code and performed analysis for the publication:
 
