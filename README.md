@@ -20,7 +20,7 @@ compiler, and so is [`EB1projectCPP`](EB1projectCPP/).
 
 ## About
 
-C++ and Matlab code I wrote for the software modules of the ClusterTrack algorithm
+C++ and Matlab code I wrote for the software modules of the ClusterTrack algorithm.
 
 Methods for personalizing medical treatment are the focal point of contemporary biomedical research. All degenerative diseases are associated with impairment in intracellular trafficking and manifest in changes in the morphology of cellular components. Complete characterization of treatment efficacy and evaluation of why some individuals respond to specific regimens, whereas others do not, requires approaches beyond genetic sequencing at single time points.
 
@@ -40,9 +40,9 @@ My user guide is available at: http://dx.doi.org/10.13140/RG.2.2.16489.26721
 
 Many other Matlab functions, from unrelated projects at my dissertation lab, are available at: https://www.nature.com/articles/nmeth.1493#Sec13
 
-The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker (1996) of the algorithm from "A Shortest Augmenting Path Algorithm for Dense and Sparse Linear Assignment Problems" (1987)
+The linear Kalman filter is based on solving the Hungarian algorithm with an implementation by Roy Jonker (1996) of the algorithm from "A Shortest Augmenting Path Algorithm for Dense and Sparse Linear Assignment Problems" (1987).
 
-The tracking functions are based on an implementation by Cor Veenman of "Resolving Motion Correspondence for Densely Moving Points" (2001)
+The tracking functions are based on an implementation by Cor Veenman of "Resolving Motion Correspondence for Densely Moving Points" (2001).
 
 See their C++ code in folders [`HungarianAlgorithm_cCode_LAP`](HungarianAlgorithm_cCode_LAP/) and [`GOA_Veenman`](GOA_Veenman/)
 
