@@ -1,5 +1,7 @@
 ### ClusterTrack
 
+C++ and Matlab code I wrote for the software modules of the ClusterTrack algorithm.
+
 ## Quick start
 
 The `.m` files at the repository root are the ClusterTrack MATLAB
@@ -19,8 +21,6 @@ compiler, and so is [`EB1projectCPP`](EB1projectCPP/).
   separate terms noted for bundled third-party components.
 
 ## About
-
-C++ and Matlab code I wrote for the software modules of the ClusterTrack algorithm.
 
 Methods for personalizing medical treatment are the focal point of contemporary biomedical research. All degenerative diseases are associated with impairment in intracellular trafficking and manifest in changes in the morphology of cellular components. Complete characterization of treatment efficacy and evaluation of why some individuals respond to specific regimens, whereas others do not, requires approaches beyond genetic sequencing at single time points.
 
