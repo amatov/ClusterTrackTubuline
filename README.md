@@ -1,4 +1,4 @@
-### ClusterTrack
+## ClusterTrack
 
 C++ and Matlab code I wrote for the software modules of the ClusterTrack algorithm.
 
