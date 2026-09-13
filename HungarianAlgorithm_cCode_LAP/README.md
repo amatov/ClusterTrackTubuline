@@ -1,4 +1,4 @@
-C++ implementation of the Hungarian algorithm by Roy Jonker "A Shortest Augmenting Path Algorithm for Dense and Sparse Linear Assignment Problems" (1987)
+C++ implementation by Roy Jonker of the Hungarian algorithm from "A Shortest Augmenting Path Algorithm for Dense and Sparse Linear Assignment Problems" (1987)
 
 Modified to use the output of my Instantaneous Flow Tracker (see "Online track initiation and propagation depend critically on computing the global vector field of particle flow using a new optimal-flow minimum-cost graph algorithm" in https://researchgate.net/publication/224625167_Reliable_tracking_of_large_scale_dense_antiparallel_particle_motion_for_fluorescence_live_cell_imaging) to initialize a Kalman filter
 
