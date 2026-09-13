@@ -16,7 +16,7 @@ compiler, and so is [`EB1projectCPP`](EB1projectCPP/).
   `EB1projectCPP.zip` for visibility/browsability; the zip itself is kept
   alongside it with the full original build folder (project files,
   compiled executables).
-- `media/` -- supplementary image and data files.
+- [`media/`](media/) -- supplementary image and data files.
 - **License:** see [LICENSE](LICENSE) -- research/educational use, with
   separate terms noted for bundled third-party components.
 
