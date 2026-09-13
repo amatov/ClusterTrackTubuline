@@ -4,7 +4,7 @@
 
 The `.m` files at the repository root are the ClusterTrack MATLAB
 scripts; `createSparseDistanceMatrix.c` is compiled via MATLAB's `mex`
-compiler. and so is `EB1projectCPP`.
+compiler, and so is `EB1projectCPP`.
 
 ## Repository contents
 
